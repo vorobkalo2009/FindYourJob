@@ -37,6 +37,8 @@ header {
             }
         }
         .navbar {
+            a{
+                transition: 0.3s;}
             ul {
                 display: flex;
                 padding: 0;
@@ -55,6 +57,7 @@ header {
             a {
                 padding-top: 15px;
                 padding-bottom: 15px;
+                transition: 0.3s;
             }
             .registration {
                 color: white;
@@ -124,16 +127,23 @@ header {
             opacity: 0.5;
         }
     }
-    h4{
-        font-family: 'Fira Sans';
-        font-weight: 700;
-        font-size: 16px;
-        color: #111238;
-    }
-    a{
-        font-family: 'Fira Sans';
-        font-weight: 400;
-        font-size: 16px;
-        color: #111238;
+    &_menu{
+        h4{
+            font-family: 'Fira Sans';
+            font-weight: 700;
+            font-size: 16px;
+            color: #111238;
+        }
+        a{
+            font-family: 'Fira Sans';
+            font-weight: 400;
+            font-size: 16px;
+            color: #111238;
+            transition: 0.3s;
+
+            &:hover{
+                color: #1A75E8;
+            }
+        }
     }
 }
