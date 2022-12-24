@@ -1,6 +1,7 @@
 *{box-sizing:border-box;margin:0}ul{list-style-type:none}a{text-decoration:none;color:inherit}header{margin-top:44px;font-family:"Fira Sans";font-weight:400}header .header{display:flex;height:49px;justify-content:space-between;align-items:center}header .header .logo{display:flex;align-items:center}header .header .logo .logo_text{display:flex;align-items:center;height:12.16px;margin-left:11px}header .header .logo .logo_text .job{color:#1a75e8}header .header .logo .logo_text p{margin-bottom:0}header .header .navbar a{transition:.3s}header .header .navbar ul{display:flex;padding:0;margin-top:15px;margin-bottom:15px;gap:20px}header .header .navbar li{display:inline-block}header .header .email{display:flex;gap:60px}header .header .email a{padding-top:15px;padding-bottom:15px;transition:.3s}header .header .email .registration{color:#fff;background:#1a75e8;padding-top:15px;padding-bottom:15px;border-radius:5px;padding-left:30px;padding-right:30px}.category{margin:80px auto -80px}.category_btn{width:calc(16.6666666667% - 55.3333333333px);height:128px;border-radius:10px;text-align:center;align-items:center;display:flex;flex-direction:column;justify-content:center;transition:background .3s,color .3s}.category_btn:hover{background:#1a75e8}.category_btn:hover path{fill:#fff}.category_btn:hover a{color:#fff}.category h3{margin:1px auto 40px;font-family:"Fira Sans";font-weight:700;font-size:24px}.category a{font-family:"Fira Sans";font-weight:400;font-size:16px;text-align:center;text-decoration:none;color:#111238}.footer{margin:70px auto 64px}.footer_info h4{padding-top:35px;padding-bottom:70px}.footer_info p{font-family:"Fira Sans";font-weight:400;font-size:12px;opacity:.5}.footer_menu h4{font-family:"Fira Sans";font-weight:700;font-size:16px;color:#111238}.footer_menu a{font-family:"Fira Sans";font-weight:400;font-size:16px;color:#111238;transition:.3s}.footer_menu a:hover{color:#1a75e8}
+
+/* main */
 main{
-  margin-top:140px;
   padding: 0 147px 0 147px;
 }
 .main_container {
@@ -13,50 +14,6 @@ align-items: center;
   
 }
 
-<<<<<<< HEAD
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-nav .container .logo {
-  display: flex;
-  color: #000;
-  align-items: center;
-  font-weight: 600;
-  gap: 11px;
-}
-nav .container .logo .logo_text {
-  display: flex;
-  gap: 0;
-}
-nav .container .logo .logo_text .job {
-  color: #1A75E8;
-}
-nav .container .menu_list {
-  display: flex;
-  padding: 0;
-  margin-bottom: 0;
-  gap: 20px;
-}
-nav .container li {
-  display: inline-block;
-}
-nav .container .email {
-  display: flex;
-  gap: 60px;
-}
-nav .container .email a {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-nav .container .email .registration {
-  color: white;
-=======
 .main_container .hero h1 {
   font-family: "Fira Sans";
   font-style: normal;
@@ -114,7 +71,6 @@ nav .container .email .registration {
 }
 
 .main_container .hero_link {
->>>>>>> 277d9df8f37ca6fe517b87b921a2ccd0ec07559e
   background: #1A75E8;
   border-radius: 5px;
   padding: 10px 25px 10px 25px;
@@ -190,3 +146,5 @@ nav .container .email .registration {
 .more_vac a:hover {
   text-decoration: underline;
 }
+
+
