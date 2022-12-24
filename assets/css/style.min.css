@@ -12,52 +12,38 @@ a {
   color: inherit;
 }
 
-header {
-  margin-top: 44px;
-  font-family: "Fira Sans";
-  font-weight: 400;
-}
-header .header {
+nav .container .logo {
   display: flex;
-  height: 49px;
-  justify-content: space-between;
+  color: #000;
   align-items: center;
+  font-weight: 600;
+  gap: 11px;
 }
-header .header .logo {
+nav .container .logo .logo_text {
   display: flex;
-  align-items: center;
+  gap: 0;
 }
-header .header .logo .logo_text {
-  display: flex;
-  align-items: center;
-  height: 12.16px;
-  margin-left: 11px;
-}
-header .header .logo .logo_text .job {
+nav .container .logo .logo_text .job {
   color: #1A75E8;
 }
-header .header .logo .logo_text p {
-  margin-bottom: 0;
-}
-header .header .navbar ul {
+nav .container .menu_list {
   display: flex;
   padding: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   gap: 20px;
 }
-header .header .navbar li {
+nav .container li {
   display: inline-block;
 }
-header .header .email {
+nav .container .email {
   display: flex;
   gap: 60px;
 }
-header .header .email a {
+nav .container .email a {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-header .header .email .registration {
+nav .container .email .registration {
   color: white;
   background: #1A75E8;
   padding-top: 15px;

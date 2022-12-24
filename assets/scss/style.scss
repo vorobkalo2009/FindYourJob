@@ -15,54 +15,40 @@ a {
     color: inherit;
 }
 
-// header 
+// header
 
-header {
-    margin-top: 44px;
-    font-family: 'Fira Sans';
-    font-weight: 400;
+nav {
 
-    .header {
-        display: flex;
-        height: 49px;
-        justify-content: space-between;
-        align-items: center;
-
+    .container {
+        
         .logo {
             display: flex;
+            color: #000;
             align-items: center;
+            font-weight: 600;
+            gap: 11px;
 
             .logo_text {
                 display: flex;
-                align-items: center;
-                height: 12.16px;
-                margin-left: 11px;
+                gap: 0;
 
                 .job {
-                    color: #1A75E8;
-                }
-
-                p {
-                    margin-bottom: 0;
+                    color:#1A75E8;
                 }
             }
         }
 
-        .navbar {
+        .menu_list {
+            display: flex;
+            padding: 0;
+            margin-bottom: 0;
+            gap: 20px;
+        }
 
-            ul {
-                display: flex;
-                padding: 0;
-                margin-top: 15px;
-                margin-bottom: 15px;
-                gap: 20px;
-            }
+        li {
+            display: inline-block;          
+        }
 
-            li {
-                display: inline-block;          
-            }
-        } 
-        
         .email {
             display: flex;
             gap: 60px;
@@ -81,9 +67,9 @@ header {
                 padding-left: 30px;
                 padding-right: 30px;
             }
-        }
+        }  
     }
-}
+}    
 
 // hero
 
