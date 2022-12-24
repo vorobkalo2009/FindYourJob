@@ -1,19 +1,16 @@
-
 // global
-
 * {
     box-sizing: border-box;
     margin: 0;
 }
-
 ul {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
+<<<<<<< HEAD
 
 // header
 
@@ -21,10 +18,23 @@ nav {
 
     .container {
         
+=======
+// header 
+header {
+    margin-top: 44px;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    .header {
+        display: flex;
+        height: 49px;
+        justify-content: space-between;
+        align-items: center;
+>>>>>>> 277d9df8f37ca6fe517b87b921a2ccd0ec07559e
         .logo {
             display: flex;
             color: #000;
             align-items: center;
+<<<<<<< HEAD
             font-weight: 600;
             gap: 11px;
 
@@ -49,15 +59,44 @@ nav {
             display: inline-block;          
         }
 
+=======
+            .logo_text {
+                display: flex;
+                align-items: center;
+                height: 12.16px;
+                margin-left: 11px;
+                .job {
+                    color: #1A75E8;
+                }
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .navbar {
+            a{
+                transition: 0.3s;}
+            ul {
+                display: flex;
+                padding: 0;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                gap: 20px;
+            }
+            li {
+                display: inline-block;          
+            }
+        } 
+        
+>>>>>>> 277d9df8f37ca6fe517b87b921a2ccd0ec07559e
         .email {
             display: flex;
             gap: 60px;
-
             a {
                 padding-top: 15px;
                 padding-bottom: 15px;
+                transition: 0.3s;
             }
-
             .registration {
                 color: white;
                 background: #1A75E8;
@@ -69,10 +108,84 @@ nav {
             }
         }  
     }
+<<<<<<< HEAD
 }    
+=======
+}
+// category
+.category{
+    margin: 80px auto -80px;
+>>>>>>> 277d9df8f37ca6fe517b87b921a2ccd0ec07559e
 
-// hero
+    &_btn{
+        width: calc( (100% / 6) - (332px / 6));
+        height: 128px;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: background .3s, color .3s;
 
-// main 
+        &:hover{
+            background: #1A75E8;
 
-// footer
+            path{
+                fill: #fff;
+            }
+            & a{
+                color: white;
+            }
+        }
+    }
+    h3{
+        margin: 1px auto 40px;
+        font-family: 'Fira Sans';
+        font-weight: 700;
+        font-size: 24px;
+    }
+    a{
+        font-family: 'Fira Sans';
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: #111238;
+    }
+}
+.footer{
+    margin: 70px auto 64px;
+
+    &_info{
+        h4{
+            padding-top: 35px;
+            padding-bottom: 70px;
+        }
+        p{
+            font-family: 'Fira Sans';
+            font-weight: 400;
+            font-size: 12px;
+            opacity: 0.5;
+        }
+    }
+    &_menu{
+        h4{
+            font-family: 'Fira Sans';
+            font-weight: 700;
+            font-size: 16px;
+            color: #111238;
+        }
+        a{
+            font-family: 'Fira Sans';
+            font-weight: 400;
+            font-size: 16px;
+            color: #111238;
+            transition: 0.3s;
+
+            &:hover{
+                color: #1A75E8;
+            }
+        }
+    }
+}
