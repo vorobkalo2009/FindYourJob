@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
@@ -122,109 +121,17 @@ nav .email .registration {
 .category a {
   font-family: "Fira Sans";
   font-weight: 400;
-=======
-*{box-sizing:border-box;margin:0}ul{list-style-type:none}a{text-decoration:none;color:inherit}header{margin-top:44px;font-family:"Fira Sans";font-weight:400}header .header{display:flex;height:49px;justify-content:space-between;align-items:center}header .header .logo{display:flex;align-items:center}header .header .logo .logo_text{display:flex;align-items:center;height:12.16px;margin-left:11px}header .header .logo .logo_text .job{color:#1a75e8}header .header .logo .logo_text p{margin-bottom:0}header .header .navbar a{transition:.3s}header .header .navbar ul{display:flex;padding:0;margin-top:15px;margin-bottom:15px;gap:20px}header .header .navbar li{display:inline-block}header .header .email{display:flex;gap:60px}header .header .email a{padding-top:15px;padding-bottom:15px;transition:.3s}header .header .email .registration{color:#fff;background:#1a75e8;padding-top:15px;padding-bottom:15px;border-radius:5px;padding-left:30px;padding-right:30px}.category{margin:80px auto -80px}.category_btn{width:calc(16.6666666667% - 55.3333333333px);height:128px;border-radius:10px;text-align:center;align-items:center;display:flex;flex-direction:column;justify-content:center;transition:background .3s,color .3s}.category_btn:hover{background:#1a75e8}.category_btn:hover path{fill:#fff}.category_btn:hover a{color:#fff}.category h3{margin:1px auto 40px;font-family:"Fira Sans";font-weight:700;font-size:24px}.category a{font-family:"Fira Sans";font-weight:400;font-size:16px;text-align:center;text-decoration:none;color:#111238}.footer{margin:70px auto 64px}.footer_info h4{padding-top:35px;padding-bottom:70px}.footer_info p{font-family:"Fira Sans";font-weight:400;font-size:12px;opacity:.5}.footer_menu h4{font-family:"Fira Sans";font-weight:700;font-size:16px;color:#111238}.footer_menu a{font-family:"Fira Sans";font-weight:400;font-size:16px;color:#111238;transition:.3s}.footer_menu a:hover{color:#1a75e8}
-
-/* main */
-main {
-  margin: 20px 15px;
-}
-
-main h1 {
-  margin-bottom: 40px;
-}
-
-.main_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 1px solid #C5C9D5;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-.main_container .hero_img {
-  margin-top: 20px;
-}
-.main_container .hero_text {
-  margin-top: 20px;
-  font-family: "Fira Sans";
-  color: #111238;
-  text-align: center;
-}
-.main_container .hero_text h2 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  color: #111238;
-}
-.main_container .hero_text p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #111238;
-}
-.main_container .hero_link {
-  margin-bottom: 20px;
-  background: #1A75E8;
-  border-radius: 5px;
-  padding: 10px 25px;
-}
-.main_container .hero_link a {
-  font-weight: 700;
->>>>>>> 3c36957c3460959fc59403389e9fb0a4748f000d
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   color: #111238;
 }
-<<<<<<< HEAD
 
 .subs {
-=======
-.main_container .hero_link a:hover {
-  text-decoration: underline;
-}
-.main_container .requirements .text {
-  text-align: center;
-  color: #B2B2B2;
-  font-family: "Fira Sans";
-  font-style: normal;
-}
-.main_container .requirements .reqLinks a {
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  color: #B2B2B2;
-  padding: 5px 15px;
-  border: 1px solid #C5C9D5;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-.main_container .reqLinks a:hover {
-  background: #1A75E8;
-  color: #FFFFFF;
-}
-.main_container .more {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.main_container .more a {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #1A75E8;
-  text-decoration: none;
-}
-.main_container .more a:hover {
-  text-decoration: underline;
-}
-
-.vacancies {
->>>>>>> 3c36957c3460959fc59403389e9fb0a4748f000d
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Fira Sans";
   background: #F2F3F6;
   height: 446px;
 }
@@ -256,9 +163,8 @@ main h1 {
   padding-right: 10px;
   padding-left: 25px;
 }
-.subs .block .sub p {
-  color: #B2B2B2;
-  margin-bottom: 0;
+.subs .block .sub input {
+  border: 0;
 }
 .subs .block .sub .btn {
   display: flex;
@@ -270,7 +176,6 @@ main h1 {
   color: #FFFFFf;
 }
 
-<<<<<<< HEAD
 .footer {
   margin: 70px auto 64px;
 }
@@ -292,60 +197,11 @@ main h1 {
 }
 .footer_menu a {
   font-family: "Fira Sans";
-=======
-.more_vac a {
->>>>>>> 3c36957c3460959fc59403389e9fb0a4748f000d
   font-weight: 400;
   font-size: 16px;
   color: #111238;
   transition: 0.3s;
 }
-<<<<<<< HEAD
 .footer_menu a:hover {
   color: #1A75E8;
 }
-=======
-
-.more_vac a:hover {
-  text-decoration: underline;
-}
-
-@media (min-width: 768px) {
-  main {
-    padding-left: 147px;
-    padding-right: 147px;
-  }
-  .main_container {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .main_container .hero_img {
-    margin: 30px 30px 30px 20px;
-  }
-  .main_container .hero_text {
-    text-align: left;
-    margin-right: 46px;
-  }
-  .main_container .hero_link {
-    margin-right: 62px;
-  }
-  .main_container .requirements {
-    display: flex;
-  }
-  .main_container .requirements .text {
-    margin-right: 20px;
-  }
-  .main_container .reqLinks a {
-    margin-right: 10px;
-  }
-  .main_container .more {
-    margin-left: 186px;
-  }
-}
-
-
->>>>>>> 3c36957c3460959fc59403389e9fb0a4748f000d

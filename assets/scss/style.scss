@@ -141,6 +141,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Fira Sans';
     background: #F2F3F6;
     height: 446px;
 
@@ -154,13 +155,13 @@ nav {
             font-weight: 900;
             font-size: 36px;
         }
-    
+
         p {
             text-align: center;
             font-weight: 400;
             font-size: 18px;
-        }
-    
+        } 
+           
         .sub {
 
             display: flex;
@@ -175,10 +176,9 @@ nav {
             margin: 0;
             padding-right: 10px;
             padding-left: 25px;
-            
-            p {
-                color: #B2B2B2;   
-                margin-bottom: 0; 
+                        
+            input {
+                border: 0;
             }
     
             .btn {
