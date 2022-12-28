@@ -48,6 +48,10 @@ nav {
                   }
               }
           }
+        
+        .navbar-collapse {
+          flex-grow: unset;
+        }
 
       .menu_list {
 
@@ -122,10 +126,12 @@ nav {
         justify-content: center;
         transition: background .3s, color .3s;
         cursor: pointer;
+        @media (max-width: 768px) {
+          width: 166px;
+        }
 
         &:hover{
             background: #1A75E8;
-            width: calc( (100% / 6) - (332px / 6));
 
             path{
                 fill: #fff;
