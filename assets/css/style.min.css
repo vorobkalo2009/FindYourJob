@@ -221,6 +221,7 @@ a {
 
 .vacancy-salary:hover {
   text-decoration: underline;
+  color: #fff;
 }
 
 .more {
@@ -234,6 +235,7 @@ a {
 
 .more:hover {
   text-decoration: underline;
+  color: #fff;
 }
 
 .more-vacancy {
